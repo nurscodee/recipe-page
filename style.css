@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3e5d8;
+}
+main {
+  background-color: white;
+  border-radius: 24px;
+  padding: 24px;
+  max-width: 610px;
+  margin: 100px 0;
+}
+.image img {
+  width: 100%;
+  border-radius: 24px;
+  padding: 8px;
+  height: 300px;
+  object-fit: cover;
+}
+header {
+  margin: 16px 0;
+}
+header h1 {
+  margin-bottom: 13px;
+}
+header p {
+  color: #71706c;
+  line-height: 24px;
+}
+.preparation-card {
+  background-color: #fff7fc;
+  padding: 24px;
+  border-radius: 8px;
+}
+.preparation-card h4 {
+  color: #6f4155;
+  margin-bottom: 13px;
+}
+ul,
+ol {
+  list-style-position: inside;
+}
+li {
+  margin-bottom: 8px;
+  line-height: 23px;
+}
+.title {
+  margin: 18px 0;
+  color: #775753;
+}
+.nutrition {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.measurement {
+  margin-right: 215px;
+  color: #6f4155;
+}
+hr {
+  color: #d6cdcd;
+}
+@media screen and (max-width: 600px) {
+  body {
+    min-height: 100vh;
+  }
+  main {
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  .image img {
+    border-radius: 0;
+    padding: 0;
+    height: auto;
+  }
+  .measurement {
+    margin-right: 0;
+  }
+  header,
+  section {
+    padding: 24px;
+  }
+}
