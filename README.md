@@ -42,7 +42,7 @@ Mobile Version
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
-- Live Site URL: [Add your live site URL here (e.g., GitHub Pages, Netlify, Vercel)]
+- Live Site URL: https://nurscodee.github.io/recipe-page/
 
 ## My Process
 
